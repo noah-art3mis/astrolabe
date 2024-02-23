@@ -1,4 +1,4 @@
-const { getURLsFromHTML, normalizeURL, crawlPage } = require('./crawl.js');
+const { crawlAllPages } = require('./crawl.js');
 const { argv } = require('node:process');
 
 // https://wagslane.dev
@@ -12,10 +12,13 @@ async function main() {
         throw Error('too many arguments');
     }
 
-    const baseUrl = argv[2];
-    console.log(`start crawling at ${baseUrl}`);
-    const result = await crawlPage(baseUrl);
-    console.log(result);
+    const baseUrl = new URL(argv[2]);
+    
+    console.log(`start crawling at ${baseUrl.href}`);
+    const pages = await crawlAllPages(baseUrl, baseUrl, []);
+    
+    console.log('end crawling. pages:');
+    console.log(pages);
 }
 
 main();

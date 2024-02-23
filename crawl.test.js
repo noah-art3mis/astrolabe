@@ -26,37 +26,37 @@ describe('normalize url', () => {
 });
 
 describe('find links', () => {
-    const BASE_URL = 'https://boot.dev';
+    const BASE_URL = new URL('https://boot.dev');
 
-    test('find link absolute', () => {
+    test('absolute', () => {
         const html =
             '<a href="https://openai.com">Learn Backend Development</a>';
         const actual = getURLsFromHTML(html, BASE_URL);
-        const expected = ['https://openai.com/'];
+        const expected = [new URL('https://openai.com/')];
         expect(actual).toStrictEqual(expected);
     });
-    test('find link relative', () => {
+    test('relative', () => {
         const html = '<a href="/alskdjasd/asda">Learn Backend Development</a>';
         const actual = getURLsFromHTML(html, BASE_URL);
-        const expected = ['https://boot.dev/alskdjasd/asda'];
+        const expected = [new URL('https://boot.dev/alskdjasd/asda')];
         expect(actual).toStrictEqual(expected);
     });
 
-    test('find link relative and absolute', () => {
+    test('relative and absolute', () => {
         const html =
             '<a href="/alskdjasd/asda">Learn Backend Development</a> <a href="https://aaaaa.etc/2222/22">Learn Backend Development</a>';
 
         const actual = getURLsFromHTML(html, BASE_URL);
 
         const expected = [
-            'https://boot.dev/alskdjasd/asda',
-            'https://aaaaa.etc/2222/22',
+            new URL('https://boot.dev/alskdjasd/asda'),
+            new URL('https://aaaaa.etc/2222/22'),
         ];
 
         expect(actual).toStrictEqual(expected);
     });
 
-    test('find no link', () => {
+    test('no link', () => {
         const html = '<p> lol</p>';
 
         const actual = getURLsFromHTML(html, BASE_URL);

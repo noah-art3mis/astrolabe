@@ -25,11 +25,11 @@ function getURLsFromHTML(html, baseUrl) {
         }
 
         if (url) {
-            return url.href; // not undefined means parsable means absolute link
+            return url; // not undefined means parsable means absolute link
         } else {
-            const newUrl = new URL(baseUrl);
+            const newUrl = new URL(baseUrl.href);
             newUrl.pathname = link;
-            return newUrl.href;
+            return newUrl;
         }
     });
 
@@ -38,7 +38,7 @@ function getURLsFromHTML(html, baseUrl) {
 
 async function crawlPage(url) {
     try {
-        const res = await fetch(url, {
+        const res = await fetch(url.href, {
             method: 'GET',
             mode: 'cors',
         });
@@ -47,18 +47,40 @@ async function crawlPage(url) {
             throw Error('status code: ', res.status);
         }
 
-        // if (res.headers.get('Content-Type') != 'text/html') {
-        //     throw Error('content type: ', res.res.headers.get('content-type'));
-        // }
-
         return res.text();
     } catch (e) {
         console.log(e);
     }
 }
 
+async function crawlAllPages(baseUrl, currentUrl, pages) {
+    if (currentUrl === undefined) {
+        pages.push({ url: currentUrl.href, status: 'undefined' });
+        console.log(`${currentUrl.href} is undefined`);
+        return;
+    }
+
+    if (currentUrl.hostname != baseUrl.hostname) {
+        pages.push({ url: currentUrl.href, status: 'not crawled' });
+        console.log(`${currentUrl.href} is outside domain. skipping`);
+        return;
+    }
+
+    const html = await crawlPage(currentUrl);
+
+    const urls = getURLsFromHTML(html, baseUrl);
+
+    pages.push({ url: currentUrl.href, status: 'crawled' });
+    console.log(`${currentUrl.href} crawled. recursing`);
+
+    urls.forEach((url) => {
+        crawlAllPages(baseUrl, url, pages);
+    });
+    return pages;
+}
+
 module.exports = {
     normalizeURL,
     getURLsFromHTML,
-    crawlPage,
+    crawlAllPages,
 };
