@@ -83,4 +83,5 @@ module.exports = {
     normalizeURL,
     getURLsFromHTML,
     crawlAllPages,
+    crawlPage
 };

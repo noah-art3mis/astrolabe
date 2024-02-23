@@ -1,5 +1,6 @@
 const { test, expect } = require('@jest/globals');
-const { normalizeURL, getURLsFromHTML } = require('./crawl.js');
+const { normalizeURL, getURLsFromHTML, crawlPage } = require('./crawl.js');
+const { readFileSync } = require('fs');
 
 describe('normalize url', () => {
     const RESULT = 'blog.boot.dev/path';
@@ -66,3 +67,13 @@ describe('find links', () => {
         expect(actual).toStrictEqual(expected);
     });
 });
+
+describe('crawl page', () => {
+    test('works', async () => {
+        const expected = readFileSync('output.txt', 'utf8');
+        const actual = crawlPage(new URL('https://wagslane.dev'));
+        await expect(actual).resolves.toBe(expected);
+    });
+});
+
+describe('crawl all pages', () => {});
