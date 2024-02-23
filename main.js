@@ -13,10 +13,10 @@ async function main() {
     }
 
     const baseUrl = new URL(argv[2]);
-    
+
     console.log(`start crawling at ${baseUrl.href}`);
-    const pages = await crawlAllPages(baseUrl, baseUrl, []);
-    
+    const pages = await crawlAllPages(baseUrl, baseUrl.href, []);
+
     console.log('end crawling. pages:');
     console.log(pages);
 }

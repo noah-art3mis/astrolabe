@@ -1,39 +1,46 @@
 const { JSDOM } = require('jsdom');
 
-function normalizeURL(oldUrl) {
-    const newUrl = new URL(oldUrl);
-    let result = `${newUrl.hostname}${newUrl.pathname}`;
-    return removeTrailingSlash(result);
+function normalizeURL(href, baseUrl) {
+    //undefined
+    if (!href) {
+        throw Error('bad url');
+    }
+
+    //absolute path
+    if (href.startsWith('http')) {
+        return new URL(href);
+    }
+
+    //same domain
+    if (href.startsWith(baseUrl)) {
+        return new URL(href);
+    }
+
+    //relative - home
+    if (href === '/') {
+        return baseUrl;
+    }
+
+    //relative - file
+    if (href.endsWith('.xml')) {
+        const url = new URL(baseUrl.href);
+        url.pathname = href;
+        return url;
+    }
+
+    //relative path
+    if (href.startsWith('/')) {
+        const url = new URL(baseUrl.href);
+        url.pathname = href;
+        return url;
+    }
 }
 
-function removeTrailingSlash(str) {
-    return str.endsWith('/') ? str.slice(0, -1) : str;
-}
-
-function getURLsFromHTML(html, baseUrl) {
+function extractHrefs(html, baseUrl) {
     const dom = new JSDOM(html);
     const links = dom.window.document.querySelectorAll('a');
     const hrefs = Array.from(links).map((a) => a.href);
-    const result = hrefs.map((link) => {
-        let url;
-
-        try {
-            url = new URL(link);
-        } catch (e) {
-            console.log(e);
-            url = undefined;
-        }
-
-        if (url) {
-            return url; // not undefined means parsable means absolute link
-        } else {
-            const newUrl = new URL(baseUrl.href);
-            newUrl.pathname = link;
-            return newUrl;
-        }
-    });
-
-    return result;
+    return hrefs;
 }
 
 async function crawlPage(url) {
@@ -55,33 +62,40 @@ async function crawlPage(url) {
 
 async function crawlAllPages(baseUrl, currentUrl, pages) {
     if (currentUrl === undefined) {
-        pages.push({ url: currentUrl.href, status: 'undefined' });
-        console.log(`${currentUrl.href} is undefined`);
-        return;
+        pages.push({ url: currentUrl, status: 'undefined' });
+        console.log(`${currentUrl} is undefined`);
+        return pages;
     }
 
-    if (currentUrl.hostname != baseUrl.hostname) {
-        pages.push({ url: currentUrl.href, status: 'not crawled' });
-        console.log(`${currentUrl.href} is outside domain. skipping`);
-        return;
+    const url = normalizeURL(currentUrl, baseUrl);
+    const newPage = { status: 'crawled', url: url };
+
+    if (url.hostname != baseUrl.hostname) {
+        pages.push({ url: url.href, status: 'not crawled' });
+        console.log(`${url.href} is outside domain. skipping`);
+        return pages;
     }
 
-    const html = await crawlPage(currentUrl);
+    if (pages.includes(newPage)) {
+        console.log(`${url.href} is already recorded. skipping`);
+        return pages;
+    }
 
-    const urls = getURLsFromHTML(html, baseUrl);
+    const html = await crawlPage(url);
 
-    pages.push({ url: currentUrl.href, status: 'crawled' });
-    console.log(`${currentUrl.href} crawled. recursing`);
+    pages.push({ url: url.href, status: 'crawled' });
+    console.log(`${url.href} crawled. recursing`);
 
-    urls.forEach((url) => {
-        crawlAllPages(baseUrl, url, pages);
+    extractHrefs(html, baseUrl).forEach((href) => {
+        crawlAllPages(baseUrl, href, pages);
     });
+
     return pages;
 }
 
 module.exports = {
     normalizeURL,
-    getURLsFromHTML,
+    extractHrefs,
     crawlAllPages,
-    crawlPage
+    crawlPage,
 };

@@ -1,28 +1,65 @@
 const { test, expect } = require('@jest/globals');
-const { normalizeURL, getURLsFromHTML, crawlPage } = require('./crawl.js');
+const {
+    normalizeURL,
+    extractHrefs,
+    crawlPage,
+    crawlAllPages,
+} = require('./crawl.js');
 const { readFileSync } = require('fs');
 
 describe('normalize url', () => {
-    const RESULT = 'blog.boot.dev/path';
+    const baseUrl = new URL('https://blog.boot.dev/');
 
-    test('normalize https with slash', () => {
-        const CASE_ONE = 'https://blog.boot.dev/path/';
-        expect(normalizeURL(CASE_ONE)).toBe(RESULT);
+    test('same url', () => {
+        const actual = 'https://blog.boot.dev/path/';
+        const expected = new URL('https://blog.boot.dev/path/');
+        expect(normalizeURL(actual, baseUrl)).toStrictEqual(expected);
     });
 
-    test('normalize https no slash', () => {
+    test('https no slash', () => {
         const CASE_TWO = 'https://blog.boot.dev/path';
-        expect(normalizeURL(CASE_TWO)).toBe(RESULT);
+        const expected = new URL('https://blog.boot.dev/path/');
+
+        expect(normalizeURL(CASE_TWO, baseUrl)).toStrictEqual(expected);
     });
 
-    test('normalize http with slash', () => {
-        const CASE_THREE = 'http://blog.boot.dev/path/';
-        expect(normalizeURL(CASE_THREE)).toBe(RESULT);
+    test('http with slash', () => {
+        const actual = 'http://blog.boot.dev/path/';
+        const expected = new URL('https://blog.boot.dev/path/');
+
+        expect(normalizeURL(actual, baseUrl)).toStrictEqual(expected);
     });
 
-    test('normalize http no slash', () => {
-        const CASE_FOUR = 'http://blog.boot.dev/path';
-        expect(normalizeURL(CASE_FOUR)).toBe(RESULT);
+    test('http no slash', () => {
+        const actual = 'http://blog.boot.dev/path';
+        const expected = new URL('https://blog.boot.dev/path/');
+
+        expect(normalizeURL(actual, baseUrl)).toStrictEqual(expected);
+    });
+
+    test('just slash', () => {
+        const actual = '/';
+        const expected = new URL('https://blog.boot.dev/path/');
+
+        expect(normalizeURL(actual, baseUrl)).toStrictEqual(expected);
+    });
+
+    test('just path', () => {
+        const actual = '/tags/';
+        const expected = new URL('https://blog.boot.dev/tags/');
+        expect(normalizeURL(actual, baseUrl)).toStrictEqual(expected);
+    });
+
+    test('just path 2', () => {
+        const actual = '/tags/zen';
+        const expected = new URL('https://blog.boot.dev/tags/zen/');
+        expect(normalizeURL(actual, baseUrl)).toStrictEqual(expected);
+    });
+
+    test('file', () => {
+        const actual = '/index.xml';
+        const expected = new URL('https://blog.boot.dev/index.xml');
+        expect(normalizeURL(actual, baseUrl)).toStrictEqual(expected);
     });
 });
 
@@ -32,38 +69,21 @@ describe('find links', () => {
     test('absolute', () => {
         const html =
             '<a href="https://openai.com">Learn Backend Development</a>';
-        const actual = getURLsFromHTML(html, BASE_URL);
-        const expected = [new URL('https://openai.com/')];
+        const actual = extractHrefs(html, BASE_URL);
+        const expected = ['https://openai.com/'];
         expect(actual).toStrictEqual(expected);
     });
     test('relative', () => {
         const html = '<a href="/alskdjasd/asda">Learn Backend Development</a>';
-        const actual = getURLsFromHTML(html, BASE_URL);
-        const expected = [new URL('https://boot.dev/alskdjasd/asda')];
-        expect(actual).toStrictEqual(expected);
-    });
-
-    test('relative and absolute', () => {
-        const html =
-            '<a href="/alskdjasd/asda">Learn Backend Development</a> <a href="https://aaaaa.etc/2222/22">Learn Backend Development</a>';
-
-        const actual = getURLsFromHTML(html, BASE_URL);
-
-        const expected = [
-            new URL('https://boot.dev/alskdjasd/asda'),
-            new URL('https://aaaaa.etc/2222/22'),
-        ];
-
+        const actual = extractHrefs(html, BASE_URL);
+        const expected = ['/alskdjasd/asda'];
         expect(actual).toStrictEqual(expected);
     });
 
     test('no link', () => {
         const html = '<p> lol</p>';
-
-        const actual = getURLsFromHTML(html, BASE_URL);
-
+        const actual = extractHrefs(html, BASE_URL);
         const expected = [];
-
         expect(actual).toStrictEqual(expected);
     });
 });
@@ -72,8 +92,22 @@ describe('crawl page', () => {
     test('works', async () => {
         const expected = readFileSync('output.txt', 'utf8');
         const actual = crawlPage(new URL('https://wagslane.dev'));
-        await expect(actual).resolves.toBe(expected);
+        await expect(actual).resolves.toStrictEqual(expected);
     });
 });
 
-describe('crawl all pages', () => {});
+describe('crawl all pages', () => {
+    const baseUrl = new URL('https://wagslane.dev');
+
+    test('undefined', async () => {
+        const expected = [{ status: 'undefined', url: undefined }];
+        const actual = crawlAllPages(baseUrl, undefined, []);
+        await expect(actual).resolves.toStrictEqual(expected);
+    });
+    test('another domain', async () => {
+        const currentUrl = new URL('https://gustavocosta.psc.br');
+        const expected = [{ status: 'not crawled', url: currentUrl.href }];
+        const actual = crawlAllPages(baseUrl, currentUrl, []);
+        await expect(actual).resolves.toStrictEqual(expected);
+    });
+});
