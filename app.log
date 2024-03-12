@@ -1,0 +1,829 @@
+{"level":30,"time":1710256921214,"pid":78703,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710256929053,"pid":78802,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710257221534,"pid":80966,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710257517005,"pid":83117,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710257599033,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710257600187,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710257600267,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"end crawling."}
+{"level":30,"time":1710257600267,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710257600267,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710257600327,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/ crawled. recursing..."}
+{"level":30,"time":1710257600443,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257600520,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/developers-learn-to-say-no/ crawled. recursing..."}
+{"level":30,"time":1710257600560,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/optimize-for-simplicit-first/ crawled. recursing..."}
+{"level":30,"time":1710257600733,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum/ crawled. recursing..."}
+{"level":30,"time":1710257600802,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/education/ crawled. recursing..."}
+{"level":50,"time":1710257600816,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257600816,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257600820,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257600820,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257600834,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/ crawled. recursing..."}
+{"level":30,"time":1710257600846,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/zen-of-proverbs/ crawled. recursing..."}
+{"level":30,"time":1710257600856,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257600874,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/college-a-solution-in-search-of-a-problem/ crawled. recursing..."}
+{"level":50,"time":1710257600888,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257600888,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257600897,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/no-one-does-devops/ crawled. recursing..."}
+{"level":50,"time":1710257600911,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257600911,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257600923,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/guard-keyword-error-handling-golang/ crawled. recursing..."}
+{"level":30,"time":1710257600949,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/writing/ crawled. recursing..."}
+{"level":50,"time":1710257600959,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257600959,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257600963,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257600963,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257600966,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/things-i-dont-want-to-do-to-grow-business/ crawled. recursing..."}
+{"level":30,"time":1710257600974,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/func-y-json-api/ crawled. recursing..."}
+{"level":30,"time":1710257600986,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions/ crawled. recursing..."}
+{"level":30,"time":1710257600993,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/collapsing-quality-of-devto/ crawled. recursing..."}
+{"level":30,"time":1710257601004,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":50,"time":1710257601014,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257601014,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257601019,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257601019,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257601025,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257601025,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257601029,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257601029,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257601032,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257601032,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257601037,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257601037,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257601048,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby/ crawled. recursing..."}
+{"level":30,"time":1710257601061,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/dark-patterns/ crawled. recursing..."}
+{"level":30,"time":1710257601069,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257601078,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257601091,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/seo-is-a-scam-job/ crawled. recursing..."}
+{"level":30,"time":1710257601101,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/go-struct-ordering/ crawled. recursing..."}
+{"level":30,"time":1710257601114,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/gos-major-version-handling/ crawled. recursing..."}
+{"level":30,"time":1710257601125,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/what-a-crazy-religion/ crawled. recursing..."}
+{"level":30,"time":1710257601132,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/keep-your-data-raw-at-rest/ crawled. recursing..."}
+{"level":30,"time":1710257601141,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/devops/ crawled. recursing..."}
+{"level":30,"time":1710257601145,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/writing/ crawled. recursing..."}
+{"level":30,"time":1710257601150,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/management/ crawled. recursing..."}
+{"level":30,"time":1710257601154,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/business/ crawled. recursing..."}
+{"level":30,"time":1710257601163,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/clean-code/ crawled. recursing..."}
+{"level":30,"time":1710257601169,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/philosophy/ crawled. recursing..."}
+{"level":30,"time":1710257601174,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/devops/ crawled. recursing..."}
+{"level":30,"time":1710257601182,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/business/ crawled. recursing..."}
+{"level":30,"time":1710257601187,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/clean-code/ crawled. recursing..."}
+{"level":30,"time":1710257601191,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/management/ crawled. recursing..."}
+{"level":30,"time":1710257601199,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/golang/ crawled. recursing..."}
+{"level":50,"time":1710257601204,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257601204,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257601208,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257601208,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257601214,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/college-a-solution-in-search-of-a-problem/ crawled. recursing..."}
+{"level":30,"time":1710257601229,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/golang/ crawled. recursing..."}
+{"level":30,"time":1710257601234,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/philosophy/ crawled. recursing..."}
+{"level":30,"time":1710257601239,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257601250,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions crawled. recursing..."}
+{"level":30,"time":1710257601259,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257601275,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257601288,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum crawled. recursing..."}
+{"level":30,"time":1710257601297,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257601308,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257601317,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/collapsing-quality-of-devto/ crawled. recursing..."}
+{"level":30,"time":1710257601327,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/seo-is-a-scam-job/ crawled. recursing..."}
+{"level":30,"time":1710257601339,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257601348,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257601423,"pid":83844,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257652447,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710257652819,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710257652898,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"end crawling."}
+{"level":30,"time":1710257652898,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710257652898,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710257652957,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/ crawled. recursing..."}
+{"level":50,"time":1710257653057,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257653057,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257653109,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257653109,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257653161,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/func-y-json-api/ crawled. recursing..."}
+{"level":30,"time":1710257653294,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby/ crawled. recursing..."}
+{"level":30,"time":1710257653327,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/ crawled. recursing..."}
+{"level":30,"time":1710257653343,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257653372,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/devops/ crawled. recursing..."}
+{"level":30,"time":1710257653392,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/guard-keyword-error-handling-golang/ crawled. recursing..."}
+{"level":30,"time":1710257653431,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/no-one-does-devops/ crawled. recursing..."}
+{"level":30,"time":1710257653445,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/college-a-solution-in-search-of-a-problem/ crawled. recursing..."}
+{"level":30,"time":1710257653454,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/developers-learn-to-say-no/ crawled. recursing..."}
+{"level":30,"time":1710257653492,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257653500,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257653515,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257653525,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257653535,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/clean-code/ crawled. recursing..."}
+{"level":30,"time":1710257653545,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/business/ crawled. recursing..."}
+{"level":30,"time":1710257653552,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/zen-of-proverbs/ crawled. recursing..."}
+{"level":30,"time":1710257653560,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":50,"time":1710257653577,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257653577,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257653590,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257653590,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257653599,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions/ crawled. recursing..."}
+{"level":30,"time":1710257653607,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum/ crawled. recursing..."}
+{"level":30,"time":1710257653621,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/dark-patterns/ crawled. recursing..."}
+{"level":30,"time":1710257653633,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/optimize-for-simplicit-first/ crawled. recursing..."}
+{"level":30,"time":1710257653651,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/what-a-crazy-religion/ crawled. recursing..."}
+{"level":30,"time":1710257653659,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/collapsing-quality-of-devto/ crawled. recursing..."}
+{"level":30,"time":1710257653667,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/keep-your-data-raw-at-rest/ crawled. recursing..."}
+{"level":30,"time":1710257653676,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/things-i-dont-want-to-do-to-grow-business/ crawled. recursing..."}
+{"level":30,"time":1710257653695,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/gos-major-version-handling/ crawled. recursing..."}
+{"level":30,"time":1710257653704,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum/ crawled. recursing..."}
+{"level":30,"time":1710257653719,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/go-struct-ordering/ crawled. recursing..."}
+{"level":30,"time":1710257653751,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/seo-is-a-scam-job/ crawled. recursing..."}
+{"level":30,"time":1710257653767,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257653779,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257653789,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions crawled. recursing..."}
+{"level":30,"time":1710257653796,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257653811,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257653819,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum crawled. recursing..."}
+{"level":30,"time":1710257653832,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/clean-code/ crawled. recursing..."}
+{"level":30,"time":1710257653837,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257653844,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/business/ crawled. recursing..."}
+{"level":30,"time":1710257653852,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/management/ crawled. recursing..."}
+{"level":30,"time":1710257653856,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/writing/ crawled. recursing..."}
+{"level":30,"time":1710257653861,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/education/ crawled. recursing..."}
+{"level":30,"time":1710257653865,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/philosophy/ crawled. recursing..."}
+{"level":30,"time":1710257653872,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/golang/ crawled. recursing..."}
+{"level":30,"time":1710257653888,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/zen-of-proverbs/ crawled. recursing..."}
+{"level":30,"time":1710257653899,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/optimize-for-simplicit-first/ crawled. recursing..."}
+{"level":30,"time":1710257653910,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/keep-your-data-raw-at-rest/ crawled. recursing..."}
+{"level":30,"time":1710257653920,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/things-i-dont-want-to-do-to-grow-business/ crawled. recursing..."}
+{"level":30,"time":1710257653926,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/dark-patterns/ crawled. recursing..."}
+{"level":30,"time":1710257653938,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions/ crawled. recursing..."}
+{"level":30,"time":1710257653944,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257653952,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257653968,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257653976,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257653990,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257654005,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/no-one-does-devops/ crawled. recursing..."}
+{"level":30,"time":1710257654012,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/education/ crawled. recursing..."}
+{"level":30,"time":1710257654017,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/golang/ crawled. recursing..."}
+{"level":30,"time":1710257654022,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/devops/ crawled. recursing..."}
+{"level":30,"time":1710257654029,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/philosophy/ crawled. recursing..."}
+{"level":30,"time":1710257654034,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/management/ crawled. recursing..."}
+{"level":30,"time":1710257654039,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/writing/ crawled. recursing..."}
+{"level":30,"time":1710257654049,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257654057,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257654070,"pid":84325,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257700552,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710257700938,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710257701019,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"end crawling."}
+{"level":30,"time":1710257701019,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710257701019,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710257701088,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/ crawled. recursing..."}
+{"level":30,"time":1710257701205,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/ crawled. recursing..."}
+{"level":30,"time":1710257701268,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/collapsing-quality-of-devto/ crawled. recursing..."}
+{"level":30,"time":1710257701397,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum/ crawled. recursing..."}
+{"level":50,"time":1710257701469,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257701469,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257701474,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257701474,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257701485,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257701485,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257701495,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257701510,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/zen-of-proverbs/ crawled. recursing..."}
+{"level":30,"time":1710257701525,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257701540,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/developers-learn-to-say-no/ crawled. recursing..."}
+{"level":30,"time":1710257701571,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/philosophy/ crawled. recursing..."}
+{"level":30,"time":1710257701578,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/writing/ crawled. recursing..."}
+{"level":30,"time":1710257701585,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/func-y-json-api/ crawled. recursing..."}
+{"level":30,"time":1710257701608,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/guard-keyword-error-handling-golang/ crawled. recursing..."}
+{"level":30,"time":1710257701636,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/no-one-does-devops/ crawled. recursing..."}
+{"level":30,"time":1710257701645,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/dark-patterns/ crawled. recursing..."}
+{"level":30,"time":1710257701653,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/college-a-solution-in-search-of-a-problem/ crawled. recursing..."}
+{"level":50,"time":1710257701665,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257701665,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257701671,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257701671,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257701683,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/devops/ crawled. recursing..."}
+{"level":30,"time":1710257701694,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/things-i-dont-want-to-do-to-grow-business/ crawled. recursing..."}
+{"level":30,"time":1710257701711,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/keep-your-data-raw-at-rest/ crawled. recursing..."}
+{"level":30,"time":1710257701719,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/business/ crawled. recursing..."}
+{"level":30,"time":1710257701724,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/management/ crawled. recursing..."}
+{"level":30,"time":1710257701730,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/golang/ crawled. recursing..."}
+{"level":30,"time":1710257701738,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/education/ crawled. recursing..."}
+{"level":30,"time":1710257701743,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257701754,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257701761,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/philosophy/ crawled. recursing..."}
+{"level":30,"time":1710257701767,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/writing/ crawled. recursing..."}
+{"level":30,"time":1710257701777,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/seo-is-a-scam-job/ crawled. recursing..."}
+{"level":50,"time":1710257701794,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257701794,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257701803,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/gos-major-version-handling/ crawled. recursing..."}
+{"level":30,"time":1710257701815,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/what-a-crazy-religion/ crawled. recursing..."}
+{"level":30,"time":1710257701821,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions/ crawled. recursing..."}
+{"level":50,"time":1710257701842,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257701842,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257701851,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257701858,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257701868,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/what-a-crazy-religion/ crawled. recursing..."}
+{"level":30,"time":1710257701875,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257701892,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/optimize-for-simplicit-first/ crawled. recursing..."}
+{"level":30,"time":1710257701903,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/seo-is-a-scam-job/ crawled. recursing..."}
+{"level":30,"time":1710257701914,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/devops/ crawled. recursing..."}
+{"level":50,"time":1710257701926,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257701926,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257701929,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257701929,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257701933,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257701933,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257701942,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby/ crawled. recursing..."}
+{"level":30,"time":1710257701953,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/go-struct-ordering/ crawled. recursing..."}
+{"level":30,"time":1710257701972,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions crawled. recursing..."}
+{"level":30,"time":1710257701983,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257701996,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/business/ crawled. recursing..."}
+{"level":30,"time":1710257702001,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/clean-code/ crawled. recursing..."}
+{"level":30,"time":1710257702007,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/education/ crawled. recursing..."}
+{"level":30,"time":1710257702015,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257702024,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum crawled. recursing..."}
+{"level":30,"time":1710257702039,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257702048,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257702055,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/clean-code/ crawled. recursing..."}
+{"level":30,"time":1710257702064,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/golang/ crawled. recursing..."}
+{"level":30,"time":1710257702069,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/management/ crawled. recursing..."}
+{"level":30,"time":1710257702074,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257702086,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257702096,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby/ crawled. recursing..."}
+{"level":30,"time":1710257702111,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/go-struct-ordering/ crawled. recursing..."}
+{"level":30,"time":1710257702125,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/what-a-crazy-religion/ crawled. recursing..."}
+{"level":30,"time":1710257702136,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257702148,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257702168,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/gos-major-version-handling/ crawled. recursing..."}
+{"level":30,"time":1710257702178,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/seo-is-a-scam-job/ crawled. recursing..."}
+{"level":30,"time":1710257702189,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257702203,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257702216,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257702228,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257702246,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257702255,"pid":84729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":50,"time":1710257715930,"pid":84900,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":50,"time":1710257716200,"pid":84900,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":50,"time":1710257716316,"pid":84900,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":50,"time":1710257716398,"pid":84900,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257724084,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710257724439,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710257724519,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"end crawling."}
+{"level":30,"time":1710257724519,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710257724519,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710257724593,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/ crawled. recursing..."}
+{"level":30,"time":1710257724702,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257724780,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/college-a-solution-in-search-of-a-problem/ crawled. recursing..."}
+{"level":30,"time":1710257724822,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/go-struct-ordering/ crawled. recursing..."}
+{"level":30,"time":1710257724903,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/ crawled. recursing..."}
+{"level":50,"time":1710257724927,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257724927,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257724931,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257724932,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257724938,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby/ crawled. recursing..."}
+{"level":30,"time":1710257724958,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257724983,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/philosophy/ crawled. recursing..."}
+{"level":30,"time":1710257724994,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/developers-learn-to-say-no/ crawled. recursing..."}
+{"level":30,"time":1710257725005,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/no-one-does-devops/ crawled. recursing..."}
+{"level":30,"time":1710257725015,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/guard-keyword-error-handling-golang/ crawled. recursing..."}
+{"level":50,"time":1710257725056,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257725056,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257725063,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/clean-code/ crawled. recursing..."}
+{"level":30,"time":1710257725074,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/business/ crawled. recursing..."}
+{"level":30,"time":1710257725081,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/zen-of-proverbs/ crawled. recursing..."}
+{"level":30,"time":1710257725093,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/dark-patterns/ crawled. recursing..."}
+{"level":30,"time":1710257725102,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/func-y-json-api/ crawled. recursing..."}
+{"level":30,"time":1710257725115,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/keep-your-data-raw-at-rest/ crawled. recursing..."}
+{"level":30,"time":1710257725122,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/what-a-crazy-religion/ crawled. recursing..."}
+{"level":50,"time":1710257725136,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257725136,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257725144,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257725144,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257725148,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/gos-major-version-handling/ crawled. recursing..."}
+{"level":30,"time":1710257725158,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum/ crawled. recursing..."}
+{"level":30,"time":1710257725171,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/management/ crawled. recursing..."}
+{"level":30,"time":1710257725197,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257725207,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/collapsing-quality-of-devto/ crawled. recursing..."}
+{"level":30,"time":1710257725216,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/things-i-dont-want-to-do-to-grow-business/ crawled. recursing..."}
+{"level":30,"time":1710257725223,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/optimize-for-simplicit-first/ crawled. recursing..."}
+{"level":30,"time":1710257725239,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions crawled. recursing..."}
+{"level":30,"time":1710257725250,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum/ crawled. recursing..."}
+{"level":30,"time":1710257725260,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions/ crawled. recursing..."}
+{"level":30,"time":1710257725267,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum crawled. recursing..."}
+{"level":30,"time":1710257725279,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257725289,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":50,"time":1710257725302,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257725302,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257725312,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257725312,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257725323,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/seo-is-a-scam-job/ crawled. recursing..."}
+{"level":30,"time":1710257725334,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/zen-of-proverbs/ crawled. recursing..."}
+{"level":30,"time":1710257725340,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/business/ crawled. recursing..."}
+{"level":30,"time":1710257725349,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/golang/ crawled. recursing..."}
+{"level":30,"time":1710257725354,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/devops/ crawled. recursing..."}
+{"level":30,"time":1710257725360,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257725375,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/optimize-for-simplicit-first/ crawled. recursing..."}
+{"level":30,"time":1710257725389,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions/ crawled. recursing..."}
+{"level":30,"time":1710257725396,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/func-y-json-api/ crawled. recursing..."}
+{"level":30,"time":1710257725404,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257725414,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257725420,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/things-i-dont-want-to-do-to-grow-business/ crawled. recursing..."}
+{"level":30,"time":1710257725430,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/keep-your-data-raw-at-rest/ crawled. recursing..."}
+{"level":30,"time":1710257725437,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":50,"time":1710257725449,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257725449,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257725452,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257725452,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257725457,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257725457,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257725460,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257725460,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257725463,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257725463,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257725476,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/education/ crawled. recursing..."}
+{"level":30,"time":1710257725481,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/clean-code/ crawled. recursing..."}
+{"level":30,"time":1710257725486,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257725496,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/writing/ crawled. recursing..."}
+{"level":30,"time":1710257725506,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257725518,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257725529,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257725547,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257725571,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257725590,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/devops/ crawled. recursing..."}
+{"level":30,"time":1710257725594,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/education/ crawled. recursing..."}
+{"level":30,"time":1710257725599,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/management/ crawled. recursing..."}
+{"level":30,"time":1710257725606,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257725619,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/dark-patterns/ crawled. recursing..."}
+{"level":30,"time":1710257725630,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/golang/ crawled. recursing..."}
+{"level":30,"time":1710257725635,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/philosophy/ crawled. recursing..."}
+{"level":30,"time":1710257725641,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257725652,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/writing/ crawled. recursing..."}
+{"level":30,"time":1710257725657,"pid":85042,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/what-a-crazy-religion/ crawled. recursing..."}
+{"level":30,"time":1710257902928,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710257903009,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"end crawling."}
+{"level":30,"time":1710257903009,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710257903009,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710257903074,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/ crawled. recursing..."}
+{"level":30,"time":1710257903241,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257903316,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/what-a-crazy-religion/ crawled. recursing..."}
+{"level":50,"time":1710257903489,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257903489,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257903494,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/ crawled. recursing..."}
+{"level":30,"time":1710257903544,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257903558,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/zen-of-proverbs/ crawled. recursing..."}
+{"level":30,"time":1710257903574,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/college-a-solution-in-search-of-a-problem/ crawled. recursing..."}
+{"level":30,"time":1710257903587,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/no-one-does-devops/ crawled. recursing..."}
+{"level":30,"time":1710257903605,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/developers-learn-to-say-no/ crawled. recursing..."}
+{"level":50,"time":1710257903628,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257903628,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257903639,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/golang/ crawled. recursing..."}
+{"level":30,"time":1710257903658,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/ crawled. recursing..."}
+{"level":30,"time":1710257903669,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/education/ crawled. recursing..."}
+{"level":50,"time":1710257903677,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257903677,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257903682,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257903682,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257903686,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257903686,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257903693,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/things-i-dont-want-to-do-to-grow-business/ crawled. recursing..."}
+{"level":30,"time":1710257903704,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/dark-patterns/ crawled. recursing..."}
+{"level":30,"time":1710257903718,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions/ crawled. recursing..."}
+{"level":50,"time":1710257903728,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257903728,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":50,"time":1710257903733,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257903733,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257903740,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/gos-major-version-handling/ crawled. recursing..."}
+{"level":30,"time":1710257903756,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/keep-your-data-raw-at-rest/ crawled. recursing..."}
+{"level":30,"time":1710257903764,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/collapsing-quality-of-devto/ crawled. recursing..."}
+{"level":30,"time":1710257903777,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/func-y-json-api/ crawled. recursing..."}
+{"level":30,"time":1710257903808,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/guard-keyword-error-handling-golang/ crawled. recursing..."}
+{"level":30,"time":1710257903849,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby/ crawled. recursing..."}
+{"level":30,"time":1710257903865,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/go-struct-ordering/ crawled. recursing..."}
+{"level":30,"time":1710257903884,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/seo-is-a-scam-job/ crawled. recursing..."}
+{"level":30,"time":1710257903896,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum/ crawled. recursing..."}
+{"level":30,"time":1710257903908,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/optimize-for-simplicit-first/ crawled. recursing..."}
+{"level":30,"time":1710257903924,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257903933,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/about/ crawled. recursing..."}
+{"level":30,"time":1710257903949,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":50,"time":1710257903961,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"content type: application/xml is not html in page https://wagslane.dev/index.xml"}
+{"level":30,"time":1710257903961,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/index.xml crawled. recursing..."}
+{"level":30,"time":1710257903970,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/management/ crawled. recursing..."}
+{"level":30,"time":1710257903979,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/philosophy/ crawled. recursing..."}
+{"level":30,"time":1710257903999,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/continuous-deployments-arent-continuous-disruptions crawled. recursing..."}
+{"level":30,"time":1710257904007,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/clean-code/ crawled. recursing..."}
+{"level":30,"time":1710257904016,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/devops/ crawled. recursing..."}
+{"level":30,"time":1710257904021,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/writing/ crawled. recursing..."}
+{"level":30,"time":1710257904030,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum crawled. recursing..."}
+{"level":30,"time":1710257904041,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257904054,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/clean-code/ crawled. recursing..."}
+{"level":30,"time":1710257904060,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/writing/ crawled. recursing..."}
+{"level":30,"time":1710257904065,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/education/ crawled. recursing..."}
+{"level":30,"time":1710257904070,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/business/ crawled. recursing..."}
+{"level":30,"time":1710257904078,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/management/ crawled. recursing..."}
+{"level":30,"time":1710257904083,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/philosophy/ crawled. recursing..."}
+{"level":30,"time":1710257904088,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/devops/ crawled. recursing..."}
+{"level":30,"time":1710257904100,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/go-struct-ordering/ crawled. recursing..."}
+{"level":30,"time":1710257904114,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/guard-keyword-error-handling-golang/ crawled. recursing..."}
+{"level":30,"time":1710257904136,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/gos-major-version-handling/ crawled. recursing..."}
+{"level":30,"time":1710257904156,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257904162,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/managers-that-cant-code/ crawled. recursing..."}
+{"level":30,"time":1710257904172,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/tags/business/ crawled. recursing..."}
+{"level":30,"time":1710257904177,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257904186,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257904197,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/kanban-vs-scrum/ crawled. recursing..."}
+{"level":30,"time":1710257904212,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710257904222,"pid":86348,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/posts/leave-scrum-to-rugby crawled. recursing..."}
+{"level":30,"time":1710258204277,"pid":88729,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":50,"time":1710258204338,"pid":88729,"hostname":"DESKTOP-LVKCUQ1","err":{"type":"ReferenceError","message":"forEach is not defined","stack":"ReferenceError: forEach is not defined\n    at crawlAllPages (/home/art3mis/boot_dev_scraper/crawl.js:64:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async main (/home/art3mis/boot_dev_scraper/main.js:23:17)"},"msg":"forEach is not defined"}
+{"level":30,"time":1710258204338,"pid":88729,"hostname":"DESKTOP-LVKCUQ1","msg":"end crawling."}
+{"level":30,"time":1710258204338,"pid":88729,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710258626819,"pid":92583,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710258626880,"pid":92583,"hostname":"DESKTOP-LVKCUQ1","msg":"end crawling."}
+{"level":30,"time":1710258626880,"pid":92583,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710258626880,"pid":92583,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710258841486,"pid":94187,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710258841547,"pid":94187,"hostname":"DESKTOP-LVKCUQ1","msg":"end crawling."}
+{"level":30,"time":1710258841547,"pid":94187,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710258841547,"pid":94187,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710258841547,"pid":94187,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710258854779,"pid":94341,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710258854841,"pid":94341,"hostname":"DESKTOP-LVKCUQ1","msg":"end crawling."}
+{"level":30,"time":1710258854841,"pid":94341,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710258854841,"pid":94341,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710258854841,"pid":94341,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710258935849,"pid":94967,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710258935910,"pid":94967,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710258935910,"pid":94967,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710258935910,"pid":94967,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259002198,"pid":95487,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710259002259,"pid":95487,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259002259,"pid":95487,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259002259,"pid":95487,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259014962,"pid":95637,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259015378,"pid":95637,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710259015441,"pid":95637,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259015441,"pid":95637,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259015441,"pid":95637,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259196594,"pid":97059,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259197117,"pid":97059,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710259197178,"pid":97059,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259197178,"pid":97059,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259197178,"pid":97059,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259201322,"pid":97142,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259201717,"pid":97142,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710259201779,"pid":97142,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259201779,"pid":97142,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259201779,"pid":97142,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259224519,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259224865,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224926,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259224927,"pid":97369,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259286422,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259286791,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710259286851,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":40,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":50,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":60,"time":1710259286852,"pid":97865,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":50,"time":1710259316311,"pid":98138,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":60,"time":1710259316311,"pid":98138,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":30,"time":1710259321880,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259322256,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322317,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":40,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":50,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":60,"time":1710259322318,"pid":98233,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":30,"time":1710259326484,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259326825,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710259326886,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326886,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326886,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":40,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":50,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":60,"time":1710259326887,"pid":98320,"hostname":"DESKTOP-LVKCUQ1","msg":"“Hello World”"}
+{"level":30,"time":1710259418277,"pid":99035,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259489272,"pid":99649,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259526045,"pid":99969,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259551415,"pid":100251,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":20,"time":1710259600415,"pid":100654,"hostname":"DESKTOP-LVKCUQ1","msg":"debug"}
+{"level":30,"time":1710259600415,"pid":100654,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259642499,"pid":101026,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":20,"time":1710259675739,"pid":101370,"hostname":"DESKTOP-LVKCUQ1","msg":"debug"}
+{"level":30,"time":1710259675740,"pid":101370,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":20,"time":1710259680202,"pid":101440,"hostname":"DESKTOP-LVKCUQ1","msg":"debug"}
+{"level":30,"time":1710259680202,"pid":101440,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":20,"time":1710259683808,"pid":101505,"hostname":"DESKTOP-LVKCUQ1","msg":"debug"}
+{"level":30,"time":1710259683808,"pid":101505,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":20,"time":1710259690151,"pid":101604,"hostname":"DESKTOP-LVKCUQ1","msg":"debug"}
+{"level":30,"time":1710259690151,"pid":101604,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259714034,"pid":101823,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259717593,"pid":101884,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":20,"time":1710259723242,"pid":101978,"hostname":"DESKTOP-LVKCUQ1","msg":"debug"}
+{"level":30,"time":1710259723242,"pid":101978,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259731681,"pid":102076,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":20,"time":1710259739982,"pid":102189,"hostname":"DESKTOP-LVKCUQ1","msg":"debug"}
+{"level":30,"time":1710259739983,"pid":102189,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":20,"time":1710259752523,"pid":102372,"hostname":"DESKTOP-LVKCUQ1","msg":"debug"}
+{"level":30,"time":1710259752523,"pid":102372,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259767307,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259767910,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767972,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259767973,"pid":102553,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259776389,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259776737,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":30,"time":1710259776798,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"\tSKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":20,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259776799,"pid":102675,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259804457,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259804881,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":20,"time":1710259804941,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804942,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259804943,"pid":102938,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710259827385,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://wagslane.dev/"}
+{"level":30,"time":1710259827741,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"https://wagslane.dev/ crawled. recursing..."}
+{"level":20,"time":1710259827802,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":20,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://wagslane.dev/"}
+{"level":30,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://wagslane.dev/"}
+{"level":30,"time":1710259827803,"pid":103319,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}
+{"level":30,"time":1710260025778,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"start crawling at https://gustavocosta.psc.br/"}
+{"level":30,"time":1710260026855,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"https://gustavocosta.psc.br/ crawled. recursing..."}
+{"level":20,"time":1710260026924,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026924,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":20,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"SKIP - ALREADY RECORDED https://gustavocosta.psc.br/"}
+{"level":30,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT START ==="}
+{"level":30,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"Found links to https://gustavocosta.psc.br/"}
+{"level":30,"time":1710260026925,"pid":104747,"hostname":"DESKTOP-LVKCUQ1","msg":"=== CRAWLER REPORT END ==="}

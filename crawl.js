@@ -1,11 +1,5 @@
 const { JSDOM } = require('jsdom');
-
-function extractHrefs(html, baseUrl) {
-    const dom = new JSDOM(html);
-    const links = dom.window.document.querySelectorAll('a');
-    const hrefs = Array.from(links).map((a) => a.href);
-    return hrefs;
-}
+const logger = require('./logger');
 
 async function crawlPage(url) {
     try {
@@ -15,57 +9,59 @@ async function crawlPage(url) {
         });
 
         if (res.status >= 400) {
-            throw Error(`status code: ${res.status} in page ${url.href}`);
+            logger.error(`status code: ${res.status} in page ${url.href}`);
+            return;
         }
 
         const contentType = res.headers.get('Content-Type');
         if (!contentType.includes('text/html')) {
-            throw Error(
+            logger.error(
                 `content type: ${contentType} is not html in page ${url.href}`
             );
+            return;
         }
 
         return res.text();
     } catch (e) {
-        console.log(e);
+        logger.error(e, e.message);
     }
 }
 
 async function crawlAllPages(baseUrl, currentUrl, pages) {
     if (currentUrl === undefined) {
-        console.log(`\tSKIP - UNDEFINED`);
+        logger.info(`\tSKIP - UNDEFINED`);
         return pages;
     }
 
     const url = normalizeURL(currentUrl, baseUrl);
     const newPage = url ? url.href : baseUrl.href; // hack
 
-    if (url && url.hostname != baseUrl.hostname) {
-        console.log(`\tSKIP - OUTSIDE DOMAIN: ${newPage}`);
+    if (url && url.hostname !== baseUrl.hostname) {
+        logger.debug(`SKIP - OUTSIDE DOMAIN: ${newPage}`);
         return pages;
     }
 
     if (pages.includes(newPage)) {
-        console.log(`\tSKIP - ALREADY RECORDED ${newPage}`);
+        logger.debug(`SKIP - ALREADY RECORDED ${newPage}`);
         return pages;
     }
 
     const html = await crawlPage(url);
 
     pages.push(newPage);
-    console.log(`${newPage} crawled. recursing...`);
+    logger.info(`${newPage} crawled. recursing...`);
 
-    extractHrefs(html, baseUrl).forEach((href) => {
-        crawlAllPages(baseUrl, href, pages);
-    });
-
+    const hrefs = extractHrefs(html, baseUrl);
+    for (const href in hrefs) {
+        await crawlAllPages(baseUrl, href, pages);
+    }
     return pages;
 }
 
 function normalizeURL(href, baseUrl) {
     //undefined
     if (!href) {
-        console.log(`bad url: ${href}`);
+        logger.error(`bad url: ${href}`);
         return baseUrl; // ? hack
     }
 
@@ -99,30 +95,11 @@ function normalizeURL(href, baseUrl) {
     }
 }
 
-function printReport(pages) {
-    report = [];
-
-    const sorted = pages;
-    // const sorted = pages.sort((a.count, b.count) => {
-    //     return b.count - a.count;
-    // });
-
-    report.push('=== CRAWLER REPORT START ===');
-    console.log('=== CRAWLER REPORT START ===');
-
-    sorted.forEach((item) => {
-        report.push(`Found links to ${item}`);
-        console.log(`Found links to ${item}`);
-    });
-
-    report.push('=== CRAWLER REPORT END ===');
-    console.log('=== CRAWLER REPORT END ===');
-
-    try {
-        writeFileSync('report.txt', report.toString());
-    } catch (err) {
-        console.error(err);
-    }
+function extractHrefs(html, baseUrl) {
+    const dom = new JSDOM(html);
+    const links = dom.window.document.querySelectorAll('a');
+    const hrefs = Array.from(links).map((a) => a.href);
+    return hrefs;
 }
 
 module.exports = {
@@ -130,5 +107,4 @@ module.exports = {
     extractHrefs,
     crawlAllPages,
     crawlPage,
-    printReport,
 };
