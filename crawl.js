@@ -51,10 +51,10 @@ async function crawlAllPages(baseUrl, currentUrl, pages) {
     pages.push(newPage);
     logger.info(`${newPage} crawled. recursing...`);
 
-    const hrefs = extractHrefs(html, baseUrl);
-    for (const href in hrefs) {
+    const hrefs = extractHrefs(html);
+    hrefs.forEach(async (href) => {
         await crawlAllPages(baseUrl, href, pages);
-    }
+    });
     return pages;
 }
 
@@ -95,7 +95,7 @@ function normalizeURL(href, baseUrl) {
     }
 }
 
-function extractHrefs(html, baseUrl) {
+function extractHrefs(html) {
     const dom = new JSDOM(html);
     const links = dom.window.document.querySelectorAll('a');
     const hrefs = Array.from(links).map((a) => a.href);

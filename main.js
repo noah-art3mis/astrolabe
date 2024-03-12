@@ -19,11 +19,9 @@ async function main() {
 
     const pages = await crawlAllPages(baseUrl, baseUrl.href, []);
 
-    logger.info('=== CRAWLER REPORT START ===');
-    pages.forEach((item) => {
-        logger.info(`Found links to ${item}`);
-    });
-    logger.info('=== CRAWLER REPORT END ===');
+    for (const page of pages) {
+        logger.info(`Found links to ${page}`);
+    }
 }
 
 main();

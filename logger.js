@@ -1,6 +1,6 @@
 const pino = require('pino');
 
-const DEFAULT_LEVEL = 'debug';
+const DEFAULT_LEVEL = 'info';
 
 const transport = pino.transport({
     targets: [
