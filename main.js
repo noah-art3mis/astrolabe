@@ -1,5 +1,6 @@
-const { crawlAllPages } = require('./crawl.js');
+const { crawlAllPages, printReport } = require('./crawl.js');
 const { argv } = require('node:process');
+const { writeFileSync } = require('fs');
 
 // https://wagslane.dev
 
@@ -15,10 +16,18 @@ async function main() {
     const baseUrl = new URL(argv[2]);
 
     console.log(`start crawling at ${baseUrl.href}`);
-    const pages = await crawlAllPages(baseUrl, baseUrl.href, []);
 
-    console.log('end crawling. pages:');
-    console.log(pages);
+    let pages;
+
+    try {
+        pages = await crawlAllPages(baseUrl, baseUrl.href, []);
+    } catch (err) {
+        console.error(err);
+    }
+
+    console.log('end crawling.');
+
+    printReport(pages);
 }
 
 main();

@@ -90,7 +90,7 @@ describe('find links', () => {
 
 describe('crawl page', () => {
     test('works', async () => {
-        const expected = readFileSync('output.txt', 'utf8');
+        const expected = readFileSync('test_html.txt', 'utf8');
         const actual = crawlPage(new URL('https://wagslane.dev'));
         await expect(actual).resolves.toStrictEqual(expected);
     });
@@ -100,14 +100,21 @@ describe('crawl all pages', () => {
     const baseUrl = new URL('https://wagslane.dev');
 
     test('undefined', async () => {
-        const expected = [{ status: 'undefined', url: undefined }];
+        const expected = [];
         const actual = crawlAllPages(baseUrl, undefined, []);
         await expect(actual).resolves.toStrictEqual(expected);
     });
     test('another domain', async () => {
         const currentUrl = new URL('https://gustavocosta.psc.br');
-        const expected = [{ status: 'not crawled', url: currentUrl.href }];
-        const actual = crawlAllPages(baseUrl, currentUrl, []);
-        await expect(actual).resolves.toStrictEqual(expected);
+        const actual = crawlAllPages(baseUrl, currentUrl.href, []);
+        await expect(actual).resolves.toStrictEqual([]);
     });
+
+    // test('includes new page', async () => {
+    //     const base = new URL('https://wagslane.dev/');
+    //     const currentUrl = 'https://wagslane.dev/tags/';
+    //     const expected = [{ status: 'crawled', url: currentUrl.href }];
+    //     const actual = await crawlAllPages(base, currentUrl, expected);
+    //     await expect(actual).resolves.toStrictEqual(expected);
+    // });
 });
