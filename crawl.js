@@ -1,6 +1,42 @@
 const { JSDOM } = require('jsdom');
 const logger = require('./logger');
 
+async function crawlAllPages(baseUrl, currentUrl, pages) {
+    if (currentUrl === undefined) {
+        logger.debug(`\tSKIP - UNDEFINED`);
+        return pages;
+    }
+
+    const url = normalizeURL(currentUrl, baseUrl);
+
+    if (!url) {
+        logger.error(`empty url in ${currentUrl}`);
+        return pages;
+    }
+
+    if (url.hostname !== baseUrl.hostname) {
+        logger.debug(`skip: outside domain - ${url.href}`);
+        return pages;
+    }
+
+    if (pages[url.href] > 0) {
+        pages[url.href]++;
+        logger.debug(`${url.href} incremented`);
+        return pages;
+    }
+
+    pages[url.href] = 1;
+    const html = await crawlPage(url);
+    const hrefs = extractHrefs(html);
+    logger.info(`${url.href} crawled. Recursing...`);
+
+    hrefs.forEach(async (href) => {
+        await crawlAllPages(baseUrl, href, pages);
+    });
+
+    return pages;
+}
+
 async function crawlPage(url) {
     try {
         const res = await fetch(url.href, {
@@ -9,15 +45,13 @@ async function crawlPage(url) {
         });
 
         if (res.status >= 400) {
-            logger.error(`status code: ${res.status} in page ${url.href}`);
+            logger.error(`status code ${res.status} in page ${url.href}`);
             return;
         }
 
         const contentType = res.headers.get('Content-Type');
         if (!contentType.includes('text/html')) {
-            logger.error(
-                `content type: ${contentType} is not html in page ${url.href}`
-            );
+            logger.debug(`${contentType} is not html in page ${url.href}`);
             return;
         }
 
@@ -27,42 +61,10 @@ async function crawlPage(url) {
     }
 }
 
-async function crawlAllPages(baseUrl, currentUrl, pages) {
-    if (currentUrl === undefined) {
-        logger.info(`\tSKIP - UNDEFINED`);
-        return pages;
-    }
-
-    const url = normalizeURL(currentUrl, baseUrl);
-    const newPage = url ? url.href : baseUrl.href; // hack
-
-    if (url && url.hostname !== baseUrl.hostname) {
-        logger.debug(`SKIP - OUTSIDE DOMAIN: ${newPage}`);
-        return pages;
-    }
-
-    if (pages.includes(newPage)) {
-        logger.debug(`SKIP - ALREADY RECORDED ${newPage}`);
-        return pages;
-    }
-
-    const html = await crawlPage(url);
-
-    pages.push(newPage);
-    logger.info(`${newPage} crawled. recursing...`);
-
-    const hrefs = extractHrefs(html);
-    hrefs.forEach(async (href) => {
-        await crawlAllPages(baseUrl, href, pages);
-    });
-    return pages;
-}
-
 function normalizeURL(href, baseUrl) {
     //undefined
     if (!href) {
-        logger.error(`bad url: ${href}`);
-        return baseUrl; // ? hack
+        return;
     }
 
     //absolute path
@@ -71,20 +73,8 @@ function normalizeURL(href, baseUrl) {
     }
 
     //same domain
-    if (href.startsWith(baseUrl)) {
+    if (href.startsWith(baseUrl.href)) {
         return new URL(href);
-    }
-
-    //relative - home
-    if (href === '/') {
-        return baseUrl;
-    }
-
-    //relative - file
-    if (href.endsWith('.xml')) {
-        const url = new URL(baseUrl.href);
-        url.pathname = href;
-        return url;
     }
 
     //relative path

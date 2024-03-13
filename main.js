@@ -1,7 +1,7 @@
 const { crawlAllPages } = require('./crawl.js');
 const { argv } = require('node:process');
 const logger = require('./logger');
-
+const retry = require('retry');
 // https://wagslane.dev
 
 async function main() {
@@ -17,10 +17,10 @@ async function main() {
 
     logger.info(`start crawling at ${baseUrl.href}`);
 
-    const pages = await crawlAllPages(baseUrl, baseUrl.href, []);
+    const pages = await crawlAllPages(baseUrl, baseUrl.href, {});
 
-    for (const page of pages) {
-        logger.info(`Found links to ${page}`);
+    for (const page in pages) {
+        logger.info(`Found ${page[1]} links to ${page[0]}`);
     }
 }
 
