@@ -30,9 +30,13 @@ async function crawlAllPages(baseUrl, currentUrl, pages) {
     const hrefs = extractHrefs(html);
     logger.info(`${url.href} crawled. Recursing...`);
 
-    hrefs.forEach(async (href) => {
-        await crawlAllPages(baseUrl, href, pages);
-    });
+    // Create an array to store the promises returned by crawlAllPages
+    const crawlPromises = hrefs.map((href) =>
+        crawlAllPages(baseUrl, href, pages)
+    );
+
+    // Wait for all promises to resolve before returning
+    await Promise.all(crawlPromises);
 
     return pages;
 }

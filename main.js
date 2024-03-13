@@ -1,7 +1,6 @@
 const { crawlAllPages } = require('./crawl.js');
 const { argv } = require('node:process');
 const logger = require('./logger');
-const retry = require('retry');
 
 async function main() {
     if (argv.length < 3) {
@@ -17,9 +16,8 @@ async function main() {
     logger.info(`start crawling at ${baseUrl.href}`);
 
     try {
-        crawlAllPages(baseUrl, baseUrl.href, {}).then((pages) => {
-            logger.info(pages);
-        });
+        const pages = await crawlAllPages(baseUrl, baseUrl.href, {});
+        logger.info(pages);
     } catch (e) {
         logger.error(e, e.message);
     }
