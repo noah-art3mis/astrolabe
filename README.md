@@ -1,3 +1,4 @@
+<img src="URL-of-the-image" alt="Alt text" width="900" height="500">
 # Astrolabe
 
 Web crawler that logs all links on a website.
