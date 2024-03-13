@@ -61,6 +61,21 @@ describe('normalize url', () => {
         const expected = new URL('https://blog.boot.dev/index.xml');
         expect(normalizeURL(actual, baseUrl)).toStrictEqual(expected);
     });
+
+    test('about', () => {
+        const actual = 'about:blank#';
+        expect(normalizeURL(actual, baseUrl)).toBeUndefined();
+    });
+
+    test('mailto', () => {
+        const actual = 'mailto:abc';
+        expect(normalizeURL(actual, baseUrl)).toBeUndefined();
+    });
+
+    test('pdf', () => {
+        const actual = 'https://gustavocosta.psc.br/content/path.pdf';
+        expect(normalizeURL(actual, baseUrl)).toBeUndefined();
+    });
 });
 
 describe('find links', () => {

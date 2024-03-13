@@ -1,13 +1,13 @@
 const pino = require('pino');
 
-const DEFAULT_LEVEL = 'debug';
-// const DEFAULT_LEVEL = 'info';
+// const DEFAULT_LEVEL = 'debug';
+const DEFAULT_LEVEL = 'info';
 
 const transport = pino.transport({
     targets: [
         {
             target: 'pino/file',
-            options: { destination: `${__dirname}/app.log` },
+            options: { destination: `${__dirname}/app.log`, sync: true },
             level: DEFAULT_LEVEL,
         },
         {

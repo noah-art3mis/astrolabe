@@ -10,7 +10,7 @@ async function crawlAllPages(baseUrl, currentUrl, pages) {
     const url = normalizeURL(currentUrl, baseUrl);
 
     if (!url) {
-        logger.error(`empty url in ${currentUrl}`);
+        logger.debug(`empty url in ${currentUrl}`);
         return pages;
     }
 
@@ -67,6 +67,21 @@ function normalizeURL(href, baseUrl) {
         return;
     }
 
+    //about
+    if (href.startsWith('about:')) {
+        return;
+    }
+
+    //mailto
+    if (href.startsWith('mailto:')) {
+        return;
+    }
+
+    //pdf
+    if (href.endsWith('.pdf')) {
+        return;
+    }
+
     //absolute path
     if (href.startsWith('http')) {
         return new URL(href);
@@ -89,7 +104,8 @@ function extractHrefs(html) {
     const dom = new JSDOM(html);
     const links = dom.window.document.querySelectorAll('a');
     const hrefs = Array.from(links).map((a) => a.href);
-    return hrefs;
+    const nonEmptyHrefs = hrefs.filter((href) => href.trim() !== '');
+    return nonEmptyHrefs;
 }
 
 module.exports = {
