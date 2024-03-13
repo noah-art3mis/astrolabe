@@ -28,7 +28,7 @@ async function crawlAllPages(baseUrl, currentUrl, pages) {
     pages[url.href] = 1;
     const html = await crawlPage(url);
     const hrefs = extractHrefs(html);
-    logger.info(`${url.href} crawled. Recursing...`);
+    logger.info(`crawled: ${url.href} `);
 
     // Create an array to store the promises returned by crawlAllPages
     const crawlPromises = hrefs.map((href) =>
@@ -108,7 +108,7 @@ function extractHrefs(html) {
     const dom = new JSDOM(html);
     const links = dom.window.document.querySelectorAll('a');
     const hrefs = Array.from(links).map((a) => a.href);
-    const nonEmptyHrefs = hrefs.filter((href) => href.trim() !== '');
+    const nonEmptyHrefs = hrefs.filter((href) => href !== '');
     return nonEmptyHrefs;
 }
 

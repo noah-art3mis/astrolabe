@@ -13,14 +13,17 @@ async function main() {
 
     const baseUrl = new URL(argv[2]);
 
-    logger.info(`start crawling at ${baseUrl.href}`);
+    logger.info(`astrolabe start: ${baseUrl.href}`);
 
-    try {
-        const pages = await crawlAllPages(baseUrl, baseUrl.href, {});
-        logger.info(pages);
-    } catch (e) {
-        logger.error(e, e.message);
-    }
+    const pages = await crawlAllPages(baseUrl, baseUrl.href, {});
+
+    const pagesArray = Object.entries(pages);
+    pagesArray.sort((a, b) => {
+        return b[1] - a[1];
+    });
+    const sortedObject = Object.fromEntries(pagesArray);
+    logger.info('astrolabe finished');
+    logger.info({ pages: sortedObject });
 }
 
 main();
